@@ -1,0 +1,1 @@
+global.maiorscore = 0;
