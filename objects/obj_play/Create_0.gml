@@ -1,0 +1,2 @@
+texto = "Play";
+destino = noone;

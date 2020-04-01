@@ -20,7 +20,7 @@ if(global.level>=5 && boss == false){ //se o level for maior que 5 e não tiver 
 if(expa>global.maiorscore){
 	global.maiorscore = expa;
 }
-/*if(keyboard_check_pressed(ord("P"))){
+if(keyboard_check_pressed(ord("P"))){
 	if(!pause){
 		pause=true;
 		instance_deactivate_all(true);
@@ -30,4 +30,4 @@ if(expa>global.maiorscore){
 		instance_activate_all();
 	}
 }
-*/
+

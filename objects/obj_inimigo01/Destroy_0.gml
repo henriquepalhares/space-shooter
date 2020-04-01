@@ -8,4 +8,6 @@ if(tomei_tiro){
 	if (chance > 98){
 		instance_create_layer(x,y,"inimigos",obj_up);
 	}
+	global.totalinimigosdestruidos++;
+	global.inimigosdestruidos++;
 }

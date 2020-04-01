@@ -1,0 +1,2 @@
+texto = "Return";
+destino = noone;

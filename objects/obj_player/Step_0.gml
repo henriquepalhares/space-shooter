@@ -9,6 +9,12 @@ var tiro = keyboard_check_pressed(vk_space);
 var escudo = keyboard_check_pressed(ord("E"));
 //testando o tiro tirar depois de testar
 
+//impedindo que o player saia da tela
+
+x= clamp(x,32,768);
+y=clamp(y,32,576);
+
+
 
 //criando escudo
 
