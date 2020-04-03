@@ -1,6 +1,7 @@
 //explodindo
 instance_create_layer(x,y,"inimigos",obj_explosao);
 if(tomei_tiro){
+	scr_treme(20,noone,"inimigos");
 	//ao morrer da experiencia pro obj control
 	obj_control.expa+=2;
 	var chance = random(100);
